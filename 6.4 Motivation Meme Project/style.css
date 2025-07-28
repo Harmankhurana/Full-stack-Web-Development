@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+#poster{
+    width: 50%;
+    margin-left: 25%;
+    margin-top : 230px
+}
+#img{
+    text-align: center;
+}
+
+#h1{
+    color: white;
+     font-family:  Libre Baskerville;
+     text-align: center;
+}
+
+#paragraph{
+    color: white;
+    text-align: center;
+}

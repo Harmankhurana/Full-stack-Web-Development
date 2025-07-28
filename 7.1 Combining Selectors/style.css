@@ -1,0 +1,28 @@
+/* Write your code here: */
+
+/*combining elements*/
+h1,h2 {
+    color: blueviolet;
+}
+
+/*combining parent and children, parent is the "div of class=.box" and its child is p */
+.box > p {
+    color: firebrick;
+}
+
+/*combining Grandchildren li is the grandchildren of div so we can use class selector (.box) for combining grandchildren*/
+/*just use space between .box and li*/
+.box li {
+    color: blue;
+}
+
+/* combining with chaining method*/
+li.done {
+    color: seagreen;
+}
+
+/*this is combining combiners in this we combine with the ancestor with the chaining method
+or we can also use (ul p.done)*/
+ul > p.done{
+    font-size: 0.5rem ;
+}
