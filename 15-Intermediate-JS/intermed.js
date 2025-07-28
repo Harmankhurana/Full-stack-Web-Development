@@ -106,5 +106,3 @@ function whosPaying(names){
 }
 
 whosPaying(); 
-
-
