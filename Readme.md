@@ -13,9 +13,9 @@ This repository tracks my journey through **"The Complete Web Development Bootca
 
 ---
 
-###📚 Curriculum Highlights
+📚 Curriculum Highlights
 
-###🔹 Front-End Development
+🔹 Front-End Development
 - HTML5 and CSS3 (Flexbox, Grid layouts, Bootstrap 4/5)  
 - JavaScript (ES6+, DOM manipulation, async functions)  
 - jQuery basics for interactivity  
