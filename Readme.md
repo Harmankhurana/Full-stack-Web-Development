@@ -1,6 +1,6 @@
 # 🚀 Full Stack Web Development Bootcamp Projects
 
-This repository tracks my journey through **"The Complete Web Development Bootcamp"** by Dr. Angela Yu (Udemy, 60+ hours), the same course featured in the “100 Days of Code” curriculum — a comprehensive, beginner‑to‑full‑stack program :contentReference[oaicite:1]{index=1}.
+This repository tracks my journey through **"The Complete Web Development Bootcamp"** by Dr. Angela Yu (Udemy, 60+ hours)
 
 ---
 
@@ -38,8 +38,3 @@ This repository tracks my journey through **"The Complete Web Development Bootca
 - To‑do list / task manager apps  
 - RESTful API service with authentication  
 - News sign‑up form using Mailchimp API integration :contentReference[oaicite:9]{index=9}  
-
----
-
-## 🗂 Repository Structure (Suggested)
-
