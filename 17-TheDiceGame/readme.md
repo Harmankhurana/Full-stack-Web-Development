@@ -6,11 +6,6 @@ Players roll a dice, and the game displays which player wins or if it's a draw �
 
 ---
 
-## 📸 Demo
-![Game Screenshot](./screenshot.png) <!-- Replace with your screenshot path -->
-
----
-
 ## ✨ Features
 - 🎯 **Random dice rolls** for both players (1–6)
 - 🖼️ **Dynamic dice images** updated using the DOM
