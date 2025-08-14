@@ -1,4 +1,4 @@
-// Creating a calculator which takes a function as an argument
+// Creating a calculator which takes a function as an argument (higher order function)
 function add(num1, num2){
     return num1 + num2;
 }
