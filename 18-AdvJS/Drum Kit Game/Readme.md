@@ -1,6 +1,6 @@
 # 🥁 Drum Kit Game
 
-![Drum kit](18-AdvJS\Drum Kit Game\images\Screenshot 2025-08-14 175300.png)
+![Drum Kit](./images/Screenshot%202025-08-14%20175300.png)
 
 A simple and fun **JavaScript-based Drum Kit** game where you can play different drum sounds by clicking on buttons or pressing specific keys on your keyboard.
 
