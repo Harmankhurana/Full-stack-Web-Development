@@ -19,7 +19,3 @@ A simple and fun **JavaScript-based Drum Kit** game where you can play different
 - **HTML5** – Structure of the web page.
 - **CSS3** – Styling and background effects.
 - **JavaScript (Vanilla JS)** – Event handling and audio playback.
-
----
-
-## 📂 Project Structure
