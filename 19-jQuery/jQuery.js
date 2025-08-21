@@ -9,3 +9,6 @@ jQuery("h1");
 
 // And for more short 
 $("h1");
+
+
+alert("Hello");
