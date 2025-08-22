@@ -22,4 +22,31 @@ $("h1").text("Good Bye");
 $("button").text("Heyyy");
 
 // Manipulating Attributes with jQuery 
+// Changing anchore tag URL to another URL
+$("a").attr("href", "https://www.yahoo.com");
 
+// Adding Event Listeners with jQuery 
+// For this callback function to execute I have to write jQuery URL in the Head 
+$("h1").click(function(){
+    $("h1").css("color" , "purple");
+});
+
+// Adding and Removing elements with jQuery
+$("h1").before("<button>New Button</button>");   // before the h1 element
+
+$("h1").after("<button>New Button</button>");    // after the h1 element
+
+$("button").remove();   // Removing all the buttons
+
+// Website Animations with jQuery 
+$("button").on("click" , function(){
+    $("h1").hide();
+});
+
+$("button").on("click" , function(){
+    $("h1").toggle();
+});
+
+$("button").on("click" , function(){
+    $("h1").fadeOut();
+});
