@@ -1,0 +1,20 @@
+what is backend development
+Backend development is the part of software development that focuses on the 
+server-side of applications — the logic, databases, APIs, and infrastructure that 
+make the frontend (what users see) actually work.
+
+Full Stack Web Development = frontend + backend; 
+
+What is Server?? 
+A server is just a computer, that provides services, data, or 
+functionality to other compters(called clients) over a network.
+
+What is applications??
+A logic which runs on that server compter, works on request respond model. 
+It send back data or just status code
+
+What is Databases??
+To store users data, we need databases 
+
+We will be learning Node.js for writing the backend code.
+It's a JS backend framework.
