@@ -1,3 +1,35 @@
 What is express??
 It's a JS framework that allows us to create backends for our websites.
 Node.js + Express.js = Backend; 
+
+Express Helps in - 
+1. Readablity 
+2. Less code 
+3. Middleware
+
+creating an Express Server - 
+1. Create Directory 
+2. Create index.js file 
+3. Initialise NPM 
+4. Install the Express package using(npm install express)
+5. Write server application in index.js
+6. Start server 
+
+what is local host?? 
+It's a server of our own machine
+
+What is HTTP??
+HyperText trasfer protocol helps in communicating between client and server,
+Exchanging data, HTML,CSS,images,videos,etc.
+
+Request - 
+GET - request resource 
+POST - sending resource
+PUT - replce resource
+PATCH - patch up a resource
+DELETE - delete resource
+
+for automatically starting the node index.js just use "nodemon index.js"
+then I doesn't have to start and stop node
+"npm install -g nodemon" 
+-g stands for gloable
