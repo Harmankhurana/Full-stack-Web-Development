@@ -5,9 +5,7 @@ import express from "express";
 const app = express();
 
 app.get("/hello" , (req , res) =>{
-    res.send({
-        message: "Hello I'm in the server",
-    })
+    res.send("Hello I'm in the server")
 })
 
 app.get("/contact" , (req , res) =>{

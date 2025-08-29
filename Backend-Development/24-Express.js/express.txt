@@ -33,3 +33,11 @@ for automatically starting the node index.js just use "nodemon index.js"
 then I doesn't have to start and stop node
 "npm install -g nodemon" 
 -g stands for gloable
+
+HTTP Respond status code - 
+It helps in indicating whether a specific HTTP request has been Successfully completed or not.
+1. Information Response(100-199) - hold on
+2. Successful Response(200-299) - here you go
+3. Redirection Response(300-399) - go away
+4. Client error Response(400-499) - you f*cked up
+5. Server error Response(500-599) - I f*ucked up
