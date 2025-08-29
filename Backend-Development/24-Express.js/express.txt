@@ -41,3 +41,7 @@ It helps in indicating whether a specific HTTP request has been Successfully com
 3. Redirection Response(300-399) - go away
 4. Client error Response(400-499) - you f*cked up
 5. Server error Response(500-599) - I f*ucked up
+for more go to developer.mozilla.org/docs/web/HTTP/status
+
+Postman - Create a backend without a frontend
+It sends the request to the Backend server to check the server Response
