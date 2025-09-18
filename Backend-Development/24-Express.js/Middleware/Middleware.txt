@@ -1,1 +1,8 @@
 Public folder is for putting static code
+
+Morgan is an HTTP request logger middleware for Node.js, commonly used with the Express.js framework. 
+Its primary purpose is to simplify the process of logging details about incoming HTTP requests and their corresponding responses in a Node.js application.
+
+Morgan and body-parser are middlewares in node.js.
+
+We can Also make are own custom middlewares for our own perticular requirements.
