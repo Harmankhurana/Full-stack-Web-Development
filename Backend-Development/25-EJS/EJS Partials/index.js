@@ -18,7 +18,7 @@ app.get("/about" , (req , res) => {
   res.render("about.ejs");
 })
 
-app.get("/" , (req , res) => {
+app.get("/contact" , (req , res) => {
   res.render("contact.ejs");
 })
 
