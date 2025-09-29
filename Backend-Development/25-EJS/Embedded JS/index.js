@@ -5,7 +5,7 @@ const port = 3000;
 
 app.get("/" , (req , res) => {
     const today = new Date();
-    const dat = today.getDay();
+    const day = today.getDay();
 
     // console.log(day);
     let type = "a weekday";
