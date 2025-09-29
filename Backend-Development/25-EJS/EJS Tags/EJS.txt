@@ -1,0 +1,7 @@
+EJS tags -
+<%= variable %>                  JS output
+<% console.lgo("")%>             JS execute
+<%- <h1>Hello</h1>>              Render HTML and tags will be removed
+<%% %%>                          Show <% or %>
+<%# %>                           Stop execution
+<%- include("header.ejs") %>     insert another EJS file
