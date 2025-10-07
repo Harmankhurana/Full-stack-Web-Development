@@ -1,0 +1,17 @@
+What is Version Control??
+the task of keeping a software system consisting of many versions and configurations well organized.
+
+Git Commands - 
+git add .                      - For adding the changes to staging area
+git commit                     - Snapshot of that change
+git push origin main           - For pushing it to the remote repo
+git status                     - For checking the current status 
+git log                        - Logging the info of the commit
+git init                       - Create a new Git repo
+git restore --staging <File>   - To restore from the staging area
+git checkout                   - To revert back to the last position in our local repo
+
+what is Git ignore file??
+Git ignore file ignores the secret passwords, API keys, etc. 
+We also put files that are to do with your local settings or your user preferences(utility files)
+example - node_modules, .exe, DS_store, etc.
