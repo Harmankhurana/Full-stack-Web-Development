@@ -8,10 +8,24 @@ git push origin main           - For pushing it to the remote repo
 git status                     - For checking the current status 
 git log                        - Logging the info of the commit
 git init                       - Create a new Git repo
-git restore --staging <File>   - To restore from the staging area
-git checkout                   - To revert back to the last position in our local repo
+git restore --staging <File>   - To restore from the staging area(reversing Git add)
+git checkout                   - To revert back to the last position in our local repo and it is also used to switch branches 
+git clone <URL>                - To clone a remote repo in your local machine
+git branch <name>              - To create a new branch in the repo
 
 what is Git ignore file??
 Git ignore file ignores the secret passwords, API keys, etc. 
 We also put files that are to do with your local settings or your user preferences(utility files)
 example - node_modules, .exe, DS_store, etc.
+
+Why you want to clone a repo??
+- You Can have your own copy of a program that they wrote 
+- Maybe you want to customize it to your own need, etc.
+- You want to extend some functionlity
+- Read other people's code, to become a good developer
+
+Learn More things about git branching from here - https://learngitbranching.js.org/
+
+What is Forking??
+- Forking means making your own copy of a another user's repo within your own GitHub account
+- You have the full right to change anything in you forked repo
