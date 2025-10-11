@@ -1,0 +1,6 @@
+What is API??
+- A technology that powers communication between software on the internet.
+- It's Application Programming Interface.
+- It's essentially a set of rules and protocols that define how different software interact with each other.
+- As we hit different routes using GET, POST, PUT, PATCH, and DELETE same way we can hit the API URL's with these routes methods,
+to get the desired output
