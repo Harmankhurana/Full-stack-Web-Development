@@ -18,3 +18,7 @@ for multiparams - ?query=value&query2=value
 ex - https://bored-api.appbrewery.com/filter?type=charity
 ex - https://bored-api.appbrewery.com/filter?type=education
 ex - For multi params https://bored-api.appbrewery.com/filter?type=social&participants=2
+
+What is JSON??
+- JavaScript Object Notation is way to format data that can be sent over the internet in the readable but also efficient way.
+- In JSON every key is a sting and the values can be anything(Strings, numbers, arrays, etc.)
