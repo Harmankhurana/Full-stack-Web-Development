@@ -4,3 +4,17 @@ What is API??
 - It's essentially a set of rules and protocols that define how different software interact with each other.
 - As we hit different routes using GET, POST, PUT, PATCH, and DELETE same way we can hit the API URL's with these routes methods,
 to get the desired output
+
+API endpoints -
+BaseURL/Endpoint
+ex - https://bored-api.appbrewery.com/random
+here, https://bored-api.appbrewery.com/ is the Base URL
+and, /random is the endpoint
+
+Query Parameters -
+After the endpoint I can put a key-value pair
+ex - ?Query=value
+for multiparams - ?query=value&query2=value
+ex - https://bored-api.appbrewery.com/filter?type=charity
+ex - https://bored-api.appbrewery.com/filter?type=education
+ex - For multi params https://bored-api.appbrewery.com/filter?type=social&participants=2
