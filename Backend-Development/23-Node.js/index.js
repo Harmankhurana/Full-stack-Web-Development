@@ -1,6 +1,6 @@
 // sillyName is an external library from NPM 
 // const generateName = require("sillyname");
-or 
+// or 
 import generateName from "sillyName";
 const sillyname = generateName();
 
