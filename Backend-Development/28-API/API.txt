@@ -22,3 +22,14 @@ ex - For multi params https://bored-api.appbrewery.com/filter?type=social&partic
 What is JSON??
 - JavaScript Object Notation is way to format data that can be sent over the internet in the readable but also efficient way.
 - In JSON every key is a string and the values can be anything(Strings, numbers, arrays, etc.)
+
+What is API Authentication??
+Authentication verify the identity of a client attempting to access an API.
+
+4 tiers of API Authentication -
+ - No Authentication (Rate limit)
+ - Basic Authentication (Username and Password)
+ - API key Authorisation 
+ - Token based Authentication
+
+use this https://secrets-api.appbrewery.com/ for practice
