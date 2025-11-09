@@ -36,3 +36,68 @@ use this https://secrets-api.appbrewery.com/ for practice
 
 What is API Key??
 - A unique identifier used to authenticate and authorize applications or users when they interact with an API
+
+Syntax of different Routes(GET, PUT, PATCH, DELETE) in axios async await - 
+1. GET -
+
+app.get("/" , async (req , res) => {
+  try {
+    const result = await axios.get(URL , config);
+    res.render("fileName" , { content : JSON.stringify(result.data)});
+  } catch (error) {
+    res.status(404).send(error.message);
+  }
+});
+
+In "GET" route we have the URL and config object
+
+2. POST -
+
+app.post("/" , async(req , res) =>{
+ try {
+  const result = await axios.post(URL , body , config);
+  res.sendStatus(201);
+ } catch (error){
+   res.status(404).send(error.response.data);
+ }
+});
+
+In "POST" route we have the URL, body/data and config object
+
+3. PUT -
+
+app.put("/" , async(req , res) =>{
+ try {
+  const result = await axios.put(URL , body , config);
+  res.sendStatus(201);
+ } catch (error){
+   res.status(404).send(error.response.data);
+ }
+});
+
+PUT provides all of the data that we want to update in our backend
+
+4. PATCH -
+
+app.patch("/" , async(req , res) =>{
+ try {
+  const result = await axios.patch(URL , body , config);
+  res.sendStatus(201);
+ } catch (error){
+   res.status(404).send(error.response.data);
+ }
+});
+
+PATCH request which means that you can provide any bit of the data you want to update 
+and everything else in the resource stays as it is
+
+5. DELETE -
+
+app.delete("/" , async(req , res) =>{
+ try {
+  const result = await axios.delete(URL, config);
+  res.sendStatus(201);
+ } catch (error){
+   res.status(404).send(error.response.data);
+ }
+});
