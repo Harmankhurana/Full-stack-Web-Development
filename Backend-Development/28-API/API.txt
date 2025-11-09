@@ -29,7 +29,10 @@ Authentication verify the identity of a client attempting to access an API.
 4 tiers of API Authentication -
  - No Authentication (Rate limit)
  - Basic Authentication (Username and Password)
- - API key Authorisation 
- - Token based Authentication
+ - API key Authorisation (uses API Key)
+ - Token based Authentication (Generating Token with Username and Password)
 
 use this https://secrets-api.appbrewery.com/ for practice
+
+What is API Key??
+- A unique identifier used to authenticate and authorize applications or users when they interact with an API
