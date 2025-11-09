@@ -15,13 +15,19 @@ app.get("/", (req, res) => {
   res.render("index.ejs", { content: "API Response." });
 });
 
-app.get("/noAuth", (req, res) => {
+app.get("/noAuth", async (req, res) => {
   //TODO 2: Use axios to hit up the /random endpoint
   //The data you get back should be sent to the ejs file as "content"
   //Hint: make sure you use JSON.stringify to turn the JS object from axios into a string.
+  try {
+    const result = await axios.get(API_URL + "/random");
+    res.render("index.ejs" , { content : JSON.stringify(result.data)});
+  } catch(err) {
+    res.status(404).send("Error" , error.message);
+  }
 });
 
-app.get("/basicAuth", (req, res) => {
+app.get("/basicAuth" , async (req, res) => {
   //TODO 3: Write your code here to hit up the /all endpoint
   //Specify that you only want the secrets from page 2
   //HINT: This is how you can use axios to do basic auth:
@@ -34,6 +40,18 @@ app.get("/basicAuth", (req, res) => {
       },
     });
   */
+
+    try { 
+      const result = await axios.get(API_URL + "/all?page=2" , {
+        auth: {
+          username : yourUsername,
+          password : yourPassword,
+        },
+      });
+      res.render("index.ejs" , { content : JSON.stringify(result.data)});
+    } catch (err) {
+      res.status(404).send("Error" , error.message);
+    }
 });
 
 app.get("/apiKey", (req, res) => {
