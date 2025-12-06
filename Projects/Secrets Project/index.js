@@ -1,5 +1,10 @@
 // HINTS:
 // 1. Import express and axios
+import express from "express";
+import axios from "axios";
+
+const app = express();
+const port = 3000;
 
 // 2. Create an express app and set the port number.
 
@@ -11,3 +16,6 @@
 // secret and the username of the secret.
 
 // 6. Listen on your predefined port and start the server.
+app.listen(port , () => {
+    console.log(`Server is running on port ${port}`);
+})
