@@ -20,7 +20,7 @@ console.log(a);
 console.log(b);
 
 
-// Greeting someone using string contenation and even using toUppercase();
+// Greeting someone using string concatenation and even using toUppercase();
 let myName = "harman khuranan";
 let message = "Hello";
 let name = myName.toUpperCase();
@@ -44,4 +44,3 @@ function bmiCalculator(kg, m){
 }
 
 console.log(bmiCalculator(70 , 1.7));
-
