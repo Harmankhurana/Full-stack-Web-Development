@@ -15,3 +15,8 @@ and they're able to message each other over a network in order to make requests 
 (this helps in scaling each side independently).
 4. Stateless - means that each request from the client to the server should contain all the information that's needed to
 understand and process the request.
+5. Resource based - Uses a unique resource identifier, also known as a Resource locator.
+
+The Internet (World wide web) is considered as one of the most successful implementations of RESTful architecture.
+
+Explore more APIs in https://rapidapi.com/hub
