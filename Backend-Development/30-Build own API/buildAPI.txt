@@ -1,0 +1,6 @@
+What is it that makes an API monetizable?
+Depends upon these 3 factors:
+1. Data collection - Have a large and valuable data collection.
+2. Algorithm/Service - Propritary algorithm or a really useful service
+3. Simplified Interface -  A Simplified API for people to be able to work with something else.
+  
