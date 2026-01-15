@@ -1,6 +1,17 @@
 What is it that makes an API monetizable?
 Depends upon these 3 factors:
 1. Data collection - Have a large and valuable data collection.
-2. Algorithm/Service - Propritary algorithm or a really useful service
+2. Algorithm/Service - Propritary algorithm or a really useful service.
 3. Simplified Interface -  A Simplified API for people to be able to work with something else.
-  
+
+What is an Internal API/ Private API?
+API that is used exclusively within a single organisation, and by its internal development teams.
+
+What makes an API RESTful?
+1. It uses standard HTTP methods (Get, post, put, patch, delete).
+2. Should have a standard data format that it responds with JSON output.
+3. Clients and servers in RESTful APIs are completely separate, they are not in the same system or in the same file
+and they're able to message each other over a network in order to make requests and also to get back responses.
+(this helps in scaling each side independently).
+4. Stateless - means that each request from the client to the server should contain all the information that's needed to
+understand and process the request.
