@@ -15,6 +15,12 @@ app.get('/random', (req, res) => {
 });
 
 //2. GET a specific joke
+app.get('/jokes/:id', (req, res) => {
+  // Creating a /joke/:id route using a path parameter so that i can respond with a joke base on a joke's id
+  const id = parseInt(req.params.id); // path parameter
+  const foundJoke = jokes.find((joke) => joke.id === id); // using find() method to check the same id parsed in
+  res.json(foundJoke);
+});
 
 //3. GET a jokes by filtering on the joke type
 
